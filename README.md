@@ -122,6 +122,9 @@ This program will output :
 Total 1178.1 eur
 
 ```
+As you can see, each asset is reported individually : For Bitcoins (btc), some are on Bitfinex and some on Poloniex. 
+For Siacoins (sc), a part in on Poloniex exchange and a part in a wallet.
+
 
 ## Contribution
 
