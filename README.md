@@ -1,3 +1,5 @@
+![CircleCI](https://circleci.com/gh/sbouba/crypto-balance/tree/master.svg?style=shield) (eslint)
+
 # Crypto Balance
 
 ## Presentation
