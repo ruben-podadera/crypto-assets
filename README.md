@@ -128,6 +128,10 @@ project](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-pro
 
 While there is no unit testing yet, your code should pass the linter :
 ```
-yarn run lint
-(or npm run lint)
+> yarn run lint
+> (or npm run lint)
+
+yarn run v0.24.6
+$ eslint --ext .js index.js src 
+Done in 1.90s
 ```   
