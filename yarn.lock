@@ -237,12 +237,6 @@ combined-stream@~0.0.4:
   dependencies:
     delayed-stream "0.0.5"
 
-common-env@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/common-env/-/common-env-6.1.0.tgz#28a559585fdf62b1a82e937f802dca47d3a573a8"
-  dependencies:
-    lodash "^4.15.0"
-
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
@@ -851,7 +845,7 @@ lodash.cond@^4.3.0:
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/lodash.cond/-/lodash.cond-4.5.2.tgz#f471a1da486be60f6ab955d17115523dd1d255d5"
 
-lodash@^4.0.0, lodash@^4.15.0, lodash@^4.17.4, lodash@^4.3.0:
+lodash@^4.0.0, lodash@^4.17.4, lodash@^4.3.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
