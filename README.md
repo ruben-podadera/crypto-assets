@@ -31,7 +31,7 @@ yarn install
 Then write a json config file with your exchanges API keys or wallets. Here is the
 one I use :
 
-```
+```json
 {
   "fiat": "eur",
   "wallets": {
@@ -65,7 +65,7 @@ node index.js config.json
 
 This will output :
 
-```
+```js
 [ { locationType: 'exchange',
     locationCode: 'bitfinex',
     currency: 'btc',
