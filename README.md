@@ -51,7 +51,8 @@ one I use :
 }
 
 ```
-- The `fiat` key indicates in wich fiat currency the Crypto Balance should convert every asset.
+- The `fiat` key indicates in wich fiat currency the Crypto Balance should convert every asset. 
+Tested with `eur` and `usd`. 
 - The `wallets` key list all wallets addresses you have by currency.
 - The `markets` key list all markets where you have some assets. For each market you have
 to specify the api key and secret. Even if you run this script locally on your machine, I recommend to une READ ONE api keys.
