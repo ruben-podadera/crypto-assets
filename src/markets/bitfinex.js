@@ -1,6 +1,6 @@
 const Bitfinex = require('bitfinex');
 
-function getBalances(config) {
+function getAssets(config) {
   const bitfinex = new Bitfinex(config.key, config.secret);
 
   return new Promise((resolve, reject) => {
@@ -19,5 +19,5 @@ function getBalances(config) {
 }
 
 module.exports = {
-  getBalances,
+  getAssets,
 };

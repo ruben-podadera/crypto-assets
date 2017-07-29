@@ -2,10 +2,10 @@ const _ = require('lodash');
 const markets = require('./markets/all-markets');
 const wallets = require('./wallets/all-wallets');
 
-function getBalances(config) {
+function getAssets(config) {
   const promises = [
-    markets.getBalances(config.markets),
-    wallets.getBalances(config.wallets),
+    markets.getAssets(config.markets),
+    wallets.getAssets(config.wallets),
   ];
 
   return Promise
@@ -14,5 +14,5 @@ function getBalances(config) {
 }
 
 module.exports = {
-  getBalances,
+  getAssets,
 };

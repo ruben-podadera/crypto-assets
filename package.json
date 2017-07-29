@@ -1,8 +1,11 @@
 {
-  "name": "crypto-portfolio",
+  "name": "crypto-assets",
   "version": "0.0.1",
   "main": "index.js",
-  "license": "MIT",
+  "license": "WTFPL",
+  "engines": {
+    "node": ">=6.11.0"
+  },
   "scripts": {
     "lint": "eslint --ext .js index.js src"
   },

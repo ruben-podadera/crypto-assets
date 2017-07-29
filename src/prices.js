@@ -19,19 +19,19 @@ function getPrices(cryptoSymbols, fiatSymbols) {
   });
 }
 
-function addPricesToBalances(balances, fiat) {
-  const currencies = balances.map(balance => balance.currency);
+function addPricesToAssets(assets, fiat) {
+  const currencies = assets.map(asset => asset.currency);
   return getPrices(currencies, [fiat])
     .then((prices) => {
-      balances.forEach((balance) => {
-        balance[fiat] = prices[balance.currency][fiat] * balance.volume;
+      assets.forEach((asset) => {
+        asset[fiat] = prices[asset.currency][fiat] * asset.volume;
       });
 
-      return balances;
+      return assets;
     });
 }
 
 module.exports = {
   getPrices,
-  addPricesToBalances,
+  addPricesToAssets,
 };

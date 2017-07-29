@@ -25,7 +25,7 @@ function getAmountInBlock(block, address) {
   });
 }
 
-function getBalances(addresses) {
+function getAssets(addresses) {
   const promises = addresses.map((address) => {
     const url = `https://explorer.siahub.info/api/hash/${address}`;
 
@@ -55,5 +55,5 @@ function getBalances(addresses) {
 }
 
 module.exports = {
-  getBalances,
+  getAssets,
 };

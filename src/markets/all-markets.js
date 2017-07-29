@@ -6,10 +6,10 @@ const markets = {
   poloniex: require('./poloniex'),
 };
 
-function getBalances(config) {
+function getAssets(config) {
   const promises = _.map(
     config || {},
-    (value, key) => markets[key].getBalances(value)
+    (value, key) => markets[key].getAssets(value)
   );
 
   return Promise
@@ -18,5 +18,5 @@ function getBalances(config) {
 }
 
 module.exports = {
-  getBalances,
+  getAssets,
 };

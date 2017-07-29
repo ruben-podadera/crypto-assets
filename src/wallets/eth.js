@@ -1,6 +1,6 @@
 const request = require('request');
 
-function getBalances(addresses) {
+function getAssets(addresses) {
   const promises = addresses.map((address) => {
     const url = `https://etherchain.org/api/account/${address}`;
 
@@ -26,5 +26,5 @@ function getBalances(addresses) {
 }
 
 module.exports = {
-  getBalances,
+  getAssets,
 };

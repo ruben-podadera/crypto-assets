@@ -6,10 +6,10 @@ const wallets = {
   eth: require('./eth'),
 };
 
-function getBalances(config) {
+function getAssets(config) {
   const promises = _.map(
     config || {},
-    (value, key) => wallets[key].getBalances(value)
+    (value, key) => wallets[key].getAssets(value)
   );
 
   return Promise
@@ -18,5 +18,5 @@ function getBalances(config) {
 }
 
 module.exports = {
-  getBalances,
+  getAssets,
 };
