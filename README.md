@@ -5,8 +5,8 @@
 ## Presentation
 Crypto Balance is a tool to retrieve your cryptocurrency balance
 from several places. This idea came from the need for me to keep
-a track of where my assets are. Some part are on several exchanges,
-some other on wallets. It became complicated to know exaclty where
+a track of where my assets are. Some are on several exchanges,
+some on wallets. It became complicated to know exactly where
 everything is.
 
 In opposition to some tools where you declare where your assets are
@@ -117,7 +117,8 @@ Total 1178.1 eur
 ## Contribution
 
 Feel free to contribute to this project by adding more exchanges and 
-wallets. Here is a guide that explains [how to contribute to a github 
+wallets. Take a look at `src/exchanges/bitfinex.js` or `src/wallets/eth.js` to 
+how it works. You dont know how to contribute ? Here is a guide that explains [how to contribute to a github 
 project](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/).
 
 While there is no unit testing yet, your code should pass the linter :
