@@ -117,8 +117,13 @@ Total 1178.1 eur
 ## Contribution
 
 Feel free to contribute to this project by adding more exchanges and 
-wallets. Take a look at `src/exchanges/bitfinex.js` or `src/wallets/eth.js` to 
-how it works. You dont know how to contribute ? Here is a guide that explains [how to contribute to a github 
+wallets. Take a look at 
+[`src/exchanges/bitfinex.js`](https://github.com/sbouba/crypto-balance/blob/master/src/markets/bitfinex.js)
+or 
+[`src/wallets/eth.js`](https://github.com/sbouba/crypto-balance/blob/master/src/wallets/eth.js) 
+to see how it works. 
+
+You dont know how to contribute ? Here is a guide that explains [how to contribute to a github 
 project](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/).
 
 While there is no unit testing yet, your code should pass the linter :
