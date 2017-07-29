@@ -58,7 +58,9 @@ to specify the api key and secret. Even if you run this script locally on your m
 
 Then run : 
 
-`node index.js config.json`
+```
+node index.js config.json
+```
 
 This will output :
 
